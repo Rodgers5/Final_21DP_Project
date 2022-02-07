@@ -1,0 +1,68 @@
+body{
+    background-color: green;
+    font-size: 16px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     text-align: center;
+}
+
+.row{
+    width: 100%;
+    background-color: #ffffff;
+    margin: 15px;;
+}
+
+.style{
+    background-color:blue; 
+    color:white; 
+    text-align: left; 
+    font-weight:bolder;
+}
+
+.title{
+    text-transform: uppercase;
+    color: green;
+    text-align: left;
+    padding: 8px;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.title:hover{
+    text-decoration:overline;
+    color: red;
+    font-weight: bolder;
+    transition: .5s ease-in-out;
+}
+
+nav{
+    background: linear-gradient(45deg, orange, #e0a942);
+}
+
+nav ul.navbar-nav li:hover{
+    background: green;
+    size:5px;
+}
+
+
+
+nav.navbar{
+    padding-top: 0px!important;
+    padding-bottom: 0px!important;
+}
+
+
+nav.navbar{
+    padding-top: 0px!important;
+    padding-bottom: 0px!important;
+}
+
+nav a, a.navbar-brand{
+    padding-top: 10px!important;
+    padding-bottom: 10px!important;
+    font-size: 24px;
+}
+
+    /* Carousel */
+.main-slider img{
+    max-height: 60vh!important;
+}
