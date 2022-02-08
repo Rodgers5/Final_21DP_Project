@@ -66,3 +66,28 @@ nav a, a.navbar-brand{
 .main-slider img{
     max-height: 60vh!important;
 }
+
+.program{
+    margin-bottom: 120px;
+    margin-top: 120px;
+}
+
+.program .card img{
+    height: 300px;
+    opacity: .8;
+}
+
+.program .card:hover img{
+    opacity: 1;
+}
+
+.program .card:hover .card-body{
+    color: white;
+    
+    background: linear-gradient(to left, rgb(233, 38, 38), rgb(219, 100, 2));
+}
+
+.program .card{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
