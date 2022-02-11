@@ -6,70 +6,79 @@ body{
 }
 
 .row{
-    width: 100%;
-    background-color: #ffffff;
-    margin: 15px;;
+    width:min-content
+    margin: 8px;
 }
 
 .style{
-    background-color:blue; 
-    color:white; 
-    text-align: left; 
-    font-weight:bolder;
+    color: white;
+    text-align:center;
+    font-weight: bolder;
 }
 
 .title{
     text-transform: uppercase;
-    color: green;
-    text-align: left;
-    padding: 8px;
-    font-weight: 800;
+    color: blue;
+    text-align: center;
+    padding: -24px;
+    font-weight: 450;
     font-size: 40px;
+    margin: 0%;
 }
 
 .title:hover{
-    text-decoration:overline;
+    text-decoration: underline;
     color: red;
-    font-weight: bolder;
-    transition: .5s ease-in-out;
+    font-weight: 900;  
+    transition: .5s ease-in-out;  
+}
+.logo-img{
+    height: 8px;
+    width: 8px;
 }
 
+.new{ 
+    color: #292;
+    text-align:right;
+}
+
+.new:hover{
+    color: orange;
+    transition: .4s ease-in-out;
+}
+
+/* Navigation Bar */
 nav{
     background: linear-gradient(45deg, orange, #e0a942);
 }
 
 nav ul.navbar-nav li:hover{
-    background: green;
+    background: blue;
     size:5px;
 }
 
-
-
 nav.navbar{
     padding-top: 0px!important;
     padding-bottom: 0px!important;
 }
 
-
-nav.navbar{
-    padding-top: 0px!important;
-    padding-bottom: 0px!important;
-}
 
 nav a, a.navbar-brand{
     padding-top: 10px!important;
     padding-bottom: 10px!important;
-    font-size: 24px;
+    font-size: 18px;
 }
 
     /* Carousel */
-.main-slider img{
-    max-height: 60vh!important;
+.mzin-slider img{
+        max-height: 60vh!important;
 }
 
+/* ptogram styling */
 .program{
-    margin-bottom: 120px;
-    margin-top: 120px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    
 }
 
 .program .card img{
@@ -84,10 +93,63 @@ nav a, a.navbar-brand{
 .program .card:hover .card-body{
     color: white;
     
-    background: linear-gradient(to left, rgb(233, 38, 38), rgb(219, 100, 2));
+    background: linear-gradient(to left, #04f12cd5, #05db22f5);
 }
 
 .program .card{
     margin-top: 32px;
     margin-bottom: 32px;
+}
+
+/* last Section PRICING */
+.pricing {
+    background-image: url();
+    background: linear-gradient(45deg, #2929cf, #e9e50e9c),url('./NAIROBI\ 1.jpg');
+}
+
+.pricing .card:hover .card-body{
+    color: white;
+    
+    background: linear-gradient(to left, hsla(115, 98%, 50%, 0.938), hsla(125, 94%, 35%, 0.671));
+}
+
+.program{
+    margin-bottom: 120px;
+    margin-top: 120px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.call-to-action{
+    background-image: url(./Activity\ 7.jpg);
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: repeat;
+    background-size: contain;
+}
+.py-10{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* Upper Footer */
+
+footer.upper-footer{
+    background-color: #4e4e4e;
+    color: #fdfdfd;
+}
+
+
+/* Meant for Footer */
+.credit{
+    background: linear-gradient(60deg, #28479c, #591ffa);
+}
+.credit p{
+    color: red;
+    font-size: 20px;
+}
+
+.credit:hover{
+    transform: rotate(10deg);
+    transition-duration: .2s;
 }
