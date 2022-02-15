@@ -12,7 +12,7 @@ body{
 
 .style{
     color: white;
-    text-align:center;
+    text-align: center;
     font-weight: bolder;
 }
 
@@ -135,8 +135,13 @@ nav a, a.navbar-brand{
 /* Upper Footer */
 
 footer.upper-footer{
-    background-color: #4e4e4e;
+    background-color: #635c5cec;
     color: #fdfdfd;
+}
+
+footer.lower-footer{
+    background-color: white;
+    color: black;
 }
 
 
@@ -147,6 +152,8 @@ footer.upper-footer{
 .credit p{
     color: red;
     font-size: 20px;
+    padding: -80px; 
+    margin: 0%; 
 }
 
 .credit:hover{
