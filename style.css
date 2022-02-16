@@ -6,7 +6,7 @@ body{
 }
 
 .row{
-    width:min-content
+    /* width:-content; */
     margin: 8px;
 }
 
@@ -20,9 +20,9 @@ body{
     text-transform: uppercase;
     color: blue;
     text-align: center;
-    padding: -24px;
+    padding: -12px;
     font-weight: 450;
-    font-size: 40px;
+    font-size: 38px;
     margin: 0%;
 }
 
@@ -110,7 +110,7 @@ nav a, a.navbar-brand{
 .pricing .card:hover .card-body{
     color: white;
     
-    background: linear-gradient(to left, hsla(115, 98%, 50%, 0.938), hsla(125, 94%, 35%, 0.671));
+    background: linear-gradient(to left, hsla(115, 94%, 34%, 0.89), rgba(5, 173, 19, 0.671));
 }
 
 .program{
@@ -139,11 +139,27 @@ footer.upper-footer{
     color: #fdfdfd;
 }
 
+
+@media screen and (max-width:576px){
+    .modern{
+        border-right: 2px solid blue;
+    }
+    
+}
+
+
+
 footer.lower-footer{
     background-color: white;
     color: black;
 }
 
+@media screen and (max-width:576px){
+    .mission{
+        border-right: 1px solid green;
+    }
+    
+}
 
 /* Meant for Footer */
 .credit{
