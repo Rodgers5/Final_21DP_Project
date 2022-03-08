@@ -1,0 +1,70 @@
+body{
+    background-color: orange;
+    color:white;
+    font-size: 16px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     text-align: center;
+}
+
+.row{
+    /* width:-content; */
+    margin: 8px;
+}
+
+.style{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.title{
+    text-transform: uppercase;
+    color: blue;
+    text-align: center;
+    padding: -12px;
+    font-weight: 230;
+    font-size: 26px;
+    margin: 0%;
+}
+
+.title:hover{
+    text-decoration: bolder;
+    color: white;
+    font-weight: 900;  
+    transition: .5s ease-in-out;  
+}
+.logo-img{
+    height: 8px;
+    width: 8px;
+}
+
+.new{ 
+    color: #292;
+    text-align:right;
+}
+
+.new:hover{
+    color: orange;
+    transition: .4s ease-in-out;
+}
+
+/* Navigation Bar */
+nav{
+    background: linear-gradient(45deg, rgb(61, 238, 70), #10eb2d);
+}
+
+nav ul.navbar-nav li:hover{
+    background: rgb(238, 8, 8);
+    size:5px;
+}
+
+nav.navbar{
+    padding-top: 0px!important;
+    padding-bottom: 0px!important;
+}
+
+
+nav a, a.navbar-brand{
+    padding-top: 10px!important;
+    padding-bottom: 10px!important;
+    font-size: 18px;
