@@ -40,6 +40,7 @@ body{
 .new{ 
     color: #292;
     text-align:vertical;
+    margin: left;
 }
 
 .new:hover{
