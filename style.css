@@ -11,14 +11,16 @@ body{
 }
 
 .style{
+    background-attachment: fixed;
     color: white;
     text-align: center;
     font-weight: bolder;
 }
 
 .title{
+    background-attachment: fixed;
     text-transform: uppercase;
-    color: blue;
+    color: orange;
     text-align: center;
     padding: -12px;
     font-weight: 450;
@@ -28,16 +30,18 @@ body{
 
 .title:hover{
     text-decoration: underline;
-    color: red;
+    color: white;
     font-weight: 900;  
     transition: .5s ease-in-out;  
 }
 .logo-img{
+    background-attachment: fixed;
     height: 8px;
     width: 8px;
 }
 
 .new{ 
+    background-attachment: fixed;
     color: #292;
     text-align:vertical;
     margin: left;
@@ -94,7 +98,7 @@ nav a, a.navbar-brand{
 .program .card:hover .card-body{
     color: white;
     
-    background: linear-gradient(to left, #04f12cd5, #05db22f5);
+    background: linear-gradient(to left, blue, rgb(25, 59, 151));
 }
 
 .program .card{
@@ -105,13 +109,13 @@ nav a, a.navbar-brand{
 /* last Section PRICING */
 .pricing {
     background-image: url();
-    background: linear-gradient(45deg, #2929cf, #e9e50e9c),url('./NAIROBI\ 1.jpg');
+    background: linear-gradient(45deg, orange, rgba(241, 166, 25, 0.836)),url('./NAIROBI 1.jpg');
 }
 
 .pricing .card:hover .card-body{
     color: white;
     
-    background: linear-gradient(to left, hsla(115, 94%, 34%, 0.89), rgba(5, 173, 19, 0.671));
+    background: linear-gradient(to left,blue, rgba(83, 61, 180, 0.671));
 }
 
 .program{
@@ -136,7 +140,7 @@ nav a, a.navbar-brand{
 /* Upper Footer */
 
 footer.upper-footer{
-    background-color: #635c5cec;
+    background-color: orange;
     color: #fdfdfd;
 }
 
@@ -152,7 +156,7 @@ footer.upper-footer{
 
 footer.lower-footer{
     background-color: white;
-    color: black;
+    color: orange;
 }
 
 /* @media screen and (max-width:576px){
@@ -164,10 +168,10 @@ footer.lower-footer{
 
 /* Meant for Footer */
 .credit{
-    background: linear-gradient(60deg, #28479c, #591ffa);
+    background: white;
 }
 .credit p{
-    color: red;
+    color: green;
     font-size: 20px;
     padding: -80px; 
     margin: 0%; 
@@ -185,3 +189,5 @@ footer.lower-footer{
     font-size: 24px;
     margin: 0%;
 }
+
+
